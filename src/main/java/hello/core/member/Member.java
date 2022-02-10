@@ -15,7 +15,7 @@ public class Member {
     public Long getId() {
         return id;
     }
-
+    // setter의 경우에는 수정이 필요없는 항목은 만들지 않아야한다.
     public void setId(Long id) {
         this.id = id;
     }
