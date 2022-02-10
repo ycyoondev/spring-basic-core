@@ -8,7 +8,7 @@ public class MemberServiceImpl implements MemberService {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
+    @Autowired // 생성자 주입 (생성시 한번 호출되는것을 보장함)
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
