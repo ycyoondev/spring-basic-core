@@ -23,8 +23,6 @@ class StatefulServiceTest {
 
         // ThreadA: 사용자A 주분조회 조회
 
-        System.out.println("price = " + userAPrice);
-
     }
 
     static class TestConfig {
